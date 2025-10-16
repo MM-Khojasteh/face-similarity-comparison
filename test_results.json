@@ -1,0 +1,70 @@
+{
+  "test_date": "2025-09-11T17:38:37.224833",
+  "project_dir": "D:\\Spring & Summer 2025\\face-similarity-comparison",
+  "method": "Improved with OpenCV face detection",
+  "test_pairs": [
+    {
+      "pair_id": 1,
+      "image1": "1 (1).jpg",
+      "image2": "1 (2).jpg",
+      "image1_size_kb": 236.89,
+      "image2_size_kb": 93.85,
+      "similarity_score": 82.05,
+      "is_same_person": true,
+      "confidence": 58.46,
+      "histogram_similarity": 154.45,
+      "lbp_similarity": 87.89,
+      "hog_similarity": 99.52,
+      "edge_similarity": 51.7,
+      "gabor_similarity": 98.65,
+      "threshold": 75,
+      "feature_agreement": 0.33,
+      "verdict": "SAME PERSON"
+    },
+    {
+      "pair_id": 2,
+      "image1": "2 (1).jpg",
+      "image2": "2 (2).jpg",
+      "image1_size_kb": 175.92,
+      "image2_size_kb": 51.73,
+      "similarity_score": 84.64,
+      "is_same_person": true,
+      "confidence": 50.77,
+      "histogram_similarity": 156.53,
+      "lbp_similarity": 97.04,
+      "hog_similarity": 99.71,
+      "edge_similarity": 50.5,
+      "gabor_similarity": 99.35,
+      "threshold": 84,
+      "feature_agreement": 0.336,
+      "verdict": "SAME PERSON"
+    },
+    {
+      "pair_id": 3,
+      "image1": "3 (1).jpg",
+      "image2": "3 (2).jpg",
+      "image1_size_kb": 458.82,
+      "image2_size_kb": 459.61,
+      "similarity_score": 83.6,
+      "is_same_person": false,
+      "confidence": 51.68,
+      "histogram_similarity": 152.79,
+      "lbp_similarity": 93.68,
+      "hog_similarity": 99.09,
+      "edge_similarity": 53.08,
+      "gabor_similarity": 99.54,
+      "threshold": 85,
+      "feature_agreement": 0.317,
+      "verdict": "DIFFERENT PEOPLE"
+    }
+  ],
+  "summary": {
+    "total_tests": 3,
+    "successful_tests": 3,
+    "failed_tests": 0,
+    "same_person_count": 2,
+    "different_people_count": 1,
+    "average_similarity": 83.43,
+    "success_rate": 100.0
+  }
+}
